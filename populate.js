@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import Apartment from "./models/apartments";
 
 const apartments = [
   {
