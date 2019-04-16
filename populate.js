@@ -114,7 +114,7 @@ mongoose.connect("mongodb://localhost/apartments");
 // Go through each apartment
 apartments.map(data => {
   // Initialize a model with apartment data
-  const apartment = new apartment(data);
+  const apartment = new Apartment(data);
   // and save it into the database
   apartment.save();
 });
